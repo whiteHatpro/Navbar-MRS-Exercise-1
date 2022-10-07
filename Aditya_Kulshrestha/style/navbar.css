@@ -1,0 +1,40 @@
+.topnav {
+    background-color : #15bf9d;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left; 
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Chaning the color of links on hover */
+
+.topnav a:hover {
+    background-color: #117A65 ;
+    color:black; 
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 20px;
+    font-size: 18px;
+  }
+
+/* Add a color to the active/current link */ 
+
+.topnav a.active{
+    background-color: #04AA6d;
+    color: white; 
+}
