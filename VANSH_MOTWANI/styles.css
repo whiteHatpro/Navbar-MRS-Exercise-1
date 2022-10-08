@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  /* font-family: "Lato"; */
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-family: 'Lato';
+}
+
+@media (max-width: 112.5em) {
+  html {
+    /* 1rem: 12px */
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    /* 1rem: 10px */
+    font-size: 62.5%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  html {
+    /* 1rem: 8px */
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 37.5em) {
+  html {
+    /* 1rem: 5px */
+    font-size: 31.25%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav {
+  background-color: rgba(31, 30, 92);
+  color: #fff !important;
+  padding: 1rem 0.5rem;
+  font-size: 1.7rem;
+}
+.nav_search {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 2rem;
+  width:30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_input {
+  outline: none;
+  border: none;
+  padding: 0 0.2rem;
+}
+.pointer {
+  cursor: pointer;
+}
+.nav_search_icon {
+  color: #000;
+}
+
+.nav_lang {
+  font-family: 'Lato';
+  border: 1px solid #fff;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 1rem;
+  background-color: #010142;
+}
+.btn {
+  background-color: transparent;
+  font-size: 1.7rem;
+  color: #fff;
+  margin: 0 1rem;
+  font-weight: 400;
+}
+.nav_signIn {
+  border: none;
+}
+.nav_signUp {
+  border: 1px solid #fff;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.nav_links {
+  width: 110%;
+}
