@@ -1,0 +1,160 @@
+.bg{
+    position: relative;
+width: 1174px;
+height: 92px;
+
+background: #040F37;
+    
+}
+.heading{
+    position: absolute;
+    width: 276px;
+    height: 29px;
+    left: 8px;
+    top: 53px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #FFFFFF;
+    
+
+
+}
+.search_box{
+    position: absolute;
+width: 306px;
+height: 21px;
+left: 370px;
+top: 64px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+.albums{
+    position: absolute;
+width: 68px;
+height: 18px;
+left: 912px;
+top: 60px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+.playlist{
+    position: absolute;
+width: 79px;
+height: 18px;
+left: 782px;
+top: 61px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+
+}
+.about{
+    position: absolute;
+width: 48px;
+height: 19px;
+left: 1041px;
+top: 60px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+}
+#se{position: absolute;
+    width: 397px;
+    height: 30px;
+    left: 316px;
+    top: 54px;
+    
+    background: #F6EFEF;
+    border-radius: 10px;
+    
+
+}
+
+
+#play{
+    position: absolute;
+width: 100px;
+height: 30px;
+left: 761px;
+top: 53px;
+
+background: #F7EFEF;
+border-radius: 10px;
+}
+#alb{
+    position: absolute;
+width: 100px;
+height: 30px;
+left: 893px;
+top: 54px;
+
+background: #F7EFEF;
+border-radius: 10px;
+}
+#ab{
+    position: absolute;
+width: 100px;
+height: 30px;
+left: 1012px;
+top: 54px;
+
+background: #F6EFEF;
+border-radius: 10px;
+}
+#img{
+    position: absolute;
+width: 80px;
+height: 56.14px;
+left: 155.73px;
+top: 3.05px;
+
+background: url(image.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
