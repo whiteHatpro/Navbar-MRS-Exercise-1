@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Music Project</title>
+  </head>
+  <body>
+    <nav class="nav flex">
+      <div class="nav_logo">
+        <img src="assets/logo.svg" alt="app logo" />
+      </div>
+      <div class="nav_search">
+        <input type="text" class="nav_input" />
+        <i class="fa-sharp pointer fa-solid fa-magnifying-glass nav_search_icon"></i>
+      </div>
+      <div>
+        <div class="nav_links flex">
+          <select class="nav_lang pointer" name="languages">
+            <option value="EN-US">EN-US</option>
+            <option value="Hindi">Hindi</option>
+            <option value="French">French</option>
+            <option value="Russian">Russian</option>
+          </select>
+        <!-- </div> -->
+        <div class="nav_themes">
+          <select class="nav_lang nav_themes pointer" name="themes">
+            <option value="Popular">Popular</option>
+            <option value="Hip-Hop">Hip-Hop</option>
+            <option value="Folk">Folk</option>
+            <option value="Electronic">Electronic</option>
+          </select>
+        </div>
+        <div class="nav_sign">
+          <button class="btn nav_signIn pointer">Sign In</button>
+          <button class="btn nav_signUp pointer">Sign Up</button>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
