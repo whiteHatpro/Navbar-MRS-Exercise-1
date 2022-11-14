@@ -1,0 +1,33 @@
+body{
+    margin: 0rem;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("mu.jpg");
+    margin-top: 0rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav_bar{
+    height: 4rem;
+    width: 70rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #4747a7;
+    border-radius: 15rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+
+}
+.item{
+    
+    margin: 1.24rem;
+    font-family: cursive;
+    font-size: larger
+}
+.box{
+    margin-top: 0.58rem;
+    margin-left: 11rem;
+    border-radius: 13rem;
+    font-size: large;
+}
