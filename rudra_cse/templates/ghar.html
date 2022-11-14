@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{%block content%}
+<h3>Hello   </h3>
+<h2>Welcome to this text analyzer</h2>
+<h1>Enter the text you wanted to analyze::</h1>
+<form action="add" method='post'>
+    {% csrf_token %}
+    {% comment %} enter 1 number:<input type='text' name="a"><br>
+    enter 2 number:<input type='text' name="b"><br> {% endcomment %}
+    <textarea style="width:700px;height:400px" name='text'></textarea><br>
+    <h2>Now select the task you want to perform:</h2>
+    {% for aa in int %}
+    <input type="checkbox" name="{{aa.name}}">{{aa.some}}</input><br>
+    {% endfor %}
+    <input type="submit">
+
+
+{%endblock%}
