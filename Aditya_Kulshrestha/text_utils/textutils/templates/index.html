@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template is working</title>
+</head>
+<body>
+<!--Kindly ignore this. Just learning stuffs.-->
+<!--{{ name }} is from {{ place }}-->
+<h1>Welcome to the text analyzer. Enter your text in here.</h1>
+<form action = '/analyze' method = 'get'>
+    <textarea name = 'text' style="width: 1513px; height: 104px;"></textarea><br>
+
+    <input type = "checkbox" name = "removepunc"> Remove Punctions <br>
+    <input type = "checkbox" name = "fullcaps"> CAPITALIZE THE STRING <br>
+    <input type = "checkbox" name = "extraspaceremover"> This removes extra space in the string <br>
+    <input type = "checkbox" name = "newlineremover"> Remove Newlines <br>
+    <button type="submit">Analyse Text</button>
+</form>
+</body>
+</html>
